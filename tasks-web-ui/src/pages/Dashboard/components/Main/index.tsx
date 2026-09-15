@@ -48,7 +48,7 @@ export default function Main() {
     <main className={classes['main']}>
       <header className={classes['main__header']}>
         <h1 className={classes['header__h1']}>Your tasks</h1>
-        <p>Currently you have {tasks.length} {tasks.length === 1 ? 'task' : 'taskses'}</p>
+        <p>Currently you have {tasks.length} {tasks.length === 1 ? 'task' : 'tasks'}</p>
       </header>
       <article>
         <section className={classes['tasks']}>
